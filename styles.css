@@ -1,0 +1,86 @@
+body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #cd0204;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #e0e0e0;
+        }
+        .logo {
+              width: 200px;
+              height: 200px;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .placeholder {
+            background-color: #cd0204;
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            line-height: 300px;
+            color: #ffffff;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #cd0204;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .welcome-message {
+            font-size: 22px;
+            margin: 20px 0;
+        }
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .feature {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+            margin: 0 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        .testimonials {
+            background-color: #1c1c1c;
+            color: #f1faee;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .testimonial {
+            margin-bottom: 15px;
+            font-style: italic;
+        }

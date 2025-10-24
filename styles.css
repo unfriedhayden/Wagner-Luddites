@@ -73,6 +73,16 @@ body {
             text-align: center;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
+        .feature2 {
+            background-color: #cd0204;
+            color: #000000;
+            padding:10px;
+            border-radius: 100px;
+            flex: 2;
+            margin: 10px 50px 30px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
         .testimonials {
             background-color: #1c1c1c;
             color: #f1faee;
@@ -84,3 +94,26 @@ body {
             margin-bottom: 15px;
             font-style: italic;
         }
+ 
+	.adda{
+	    margin: 420px 0px 0px 0px;/* top right bottom left */
+	}
+	.tsp{
+	    margin: 100px 0px 0px;/* top right bottom left */
+	}
+	.imageflex { display: flex; }
+	.imageflexcontent1 { margin-left: 120px; margin-top: 50px; }
+	.imageflexcontent { margin-left: 5px; margin-top: 0; }
+	.imageflexcontent2 { margin-left: -120px; margin-top:50px; }
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.member {
+    text-align: center;
+    margin: 10px;
+}
+
